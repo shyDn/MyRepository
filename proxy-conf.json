@@ -1,0 +1,16 @@
+
+[
+  {
+    "context": [
+      "/status1",
+      "/helloworld"
+    ],
+    "pathRewrite": {
+      "/helloworld": "/hello",
+      "status1": "/status"
+    },
+    "target": "http://localhost:3000",
+    "secure": false,
+    "changeOrigin": true
+  }
+]
